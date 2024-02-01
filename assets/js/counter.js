@@ -31,7 +31,7 @@ plusBtn.addEventListener("click", function(){
     else 
         {showNumber.style.fontSize = 25+"px";
             showNumber.innerHTML = "error!";
-            errorMsg.innerHTML = "you can't select a nummer so high!"
+            errorMsg.innerHTML = "you can't select a nummer so high!";
         }
 });
 
@@ -46,7 +46,7 @@ minusBtn.addEventListener("click", function(){
     else 
         {showNumber.style.fontSize = 25+"px";
             showNumber.innerHTML = "error!";
-            errorMsg.innerHTML = "you can't select a nummer so low!"
+            errorMsg.innerHTML = "you can't select a nummer so low!";
         }
 });
 
