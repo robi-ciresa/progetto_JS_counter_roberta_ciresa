@@ -1,0 +1,46 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    border: 3px solid black;
+    border-radius: 3px;
+    font-weight: bolder;
+}
+
+section {
+    margin: 100px 50px 100px 50px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.showNumber {
+    height: 50px;
+    width: max-content;
+    border: 1px solid black;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.batteryCharge {
+    border: 2px solid black;
+    height: 40px;
+    background-color: lightgrey;
+    margin-bottom: 10px;
+}
+
+.batteryColor {
+    height: 34px;
+    background-color: grey;
+    width: 0%;
+    margin-top: 1px;
+}
