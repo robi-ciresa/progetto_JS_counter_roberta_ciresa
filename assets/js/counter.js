@@ -23,7 +23,8 @@ function batteryCharge(number) {
 plusBtn.addEventListener("click", function(){
     if (number<100) 
         { number++;
-        errorMsg.innerHTML = ""
+        errorMsg.innerHTML = "";
+        showNumber.style.fontSize = 35+"px";
         showNumber.innerHTML = number;
         batteryColor.style.width = number+"%";
         batteryColor.style.backgroundColor = batteryCharge(number);}
@@ -37,7 +38,8 @@ plusBtn.addEventListener("click", function(){
 minusBtn.addEventListener("click", function(){
     if (number>0) 
         {number--;
-        errorMsg.innerHTML = ""
+        errorMsg.innerHTML = "";
+        showNumber.style.fontSize = 35+"px";
         showNumber.innerHTML = number;
         batteryColor.style.width = number+"%";
         batteryColor.style.backgroundColor = batteryCharge(number);}
