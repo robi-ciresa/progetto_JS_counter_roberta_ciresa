@@ -28,7 +28,8 @@ plusBtn.addEventListener("click", function(){
         batteryColor.style.width = number+"%";
         batteryColor.style.backgroundColor = batteryCharge(number);}
     else 
-        {showNumber.innerHTML = number+" error!";
+        {showNumber.style.fontSize = 25+"px";
+            showNumber.innerHTML = "error!";
             errorMsg.innerHTML = "you can't select a nummer so high!"
         }
 });
@@ -41,7 +42,8 @@ minusBtn.addEventListener("click", function(){
         batteryColor.style.width = number+"%";
         batteryColor.style.backgroundColor = batteryCharge(number);}
     else 
-        {showNumber.innerHTML = number+" error!";
+        {showNumber.style.fontSize = 25+"px";
+            showNumber.innerHTML = "error!";
             errorMsg.innerHTML = "you can't select a nummer so low!"
         }
 });
