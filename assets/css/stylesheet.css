@@ -4,10 +4,6 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
-header {
-
-}
-
 button {
     height: 50px;
     width: 50px;
@@ -16,7 +12,7 @@ button {
     font-weight: bolder;
 }
 
-section {
+.container {
     margin: 100px 50px 100px 50px;
     align-content: center;
     align-items: center;
@@ -28,14 +24,16 @@ section {
     width: max-content;
     border: 1px solid black;
     font-size: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .batteryCharge {
     border: 2px solid black;
     height: 40px;
+    width: 50%;
+    margin: auto;
     background-color: lightgrey;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .batteryColor {
