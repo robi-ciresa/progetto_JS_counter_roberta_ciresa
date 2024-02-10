@@ -1,7 +1,7 @@
 # progetto_JS_counter_roberta_ciresa
 <h1 align="center">Ciao 👋, sono Roberta</h1>
 <h3 align="center">Uno studente della Start2Impact University, sviluppatore full stack</h3>
-<h4 align="center">Il progetto di cui ti sto per parlare è dusponibile per la prova <a src="https://robi-ciresa.github.io/progetto_JS_counter_roberta_ciresa/">qui</a>!</h4>
+<h4 align="center">Il progetto di cui ti sto per parlare è dusponibile per la prova [ qui ] (https://robi-ciresa.github.io/progetto_JS_counter_roberta_ciresa/)!</h4>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=robi-ciresa&label=Profile%20views&color=0e75b6&style=flat" alt="robi-ciresa" /> </p>
 
